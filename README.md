@@ -15,5 +15,6 @@
 1. Run `make` then `cd wfs-fuse`
 1. Copy over otp.bin and seeprom.bin to wfs-fuse.
 1. Please open Disks and determine your storage device's device file eg. */dev/sdb*
-1. Then run  `sudo ./wfs-fuse/wfs-fuse /dev/PUT_YOUR_DEVICE_HERE /tmp/wii --otp ./wfs-fuse/otp.bin --seeprom ./wfs-fuse/seeprom.bin`
-  * Replacing "PUT_YOUR_DEVICE_HERE"
+1. Then run the following command whilst replacing "PUT_YOUR_DEVICE_HERE" with the name you just determined. 
+  * `sudo ./wfs-fuse/wfs-fuse /dev/PUT_YOUR_DEVICE_HERE /tmp/wii --otp ./wfs-fuse/otp.bin --seeprom ./wfs-fuse/seeprom.bin`
+  
