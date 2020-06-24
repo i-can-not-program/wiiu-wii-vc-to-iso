@@ -11,7 +11,7 @@
 1. Take out the storage device that you put in earlier.
 1. Put it in your computer
 1. Get [wfslib](https://github.com/koolkdev/wfslib.git) then compile it (see below)
-1.
-
+1. Open a terminal and go to where you cloned it.
+1. Run `make`
 
 
