@@ -2,7 +2,7 @@
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
 1. For this you will need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
 1. Download both [OTP2SD](https://github.com/dimok789/otp2sd_dumper/releases/download/v1.0/otp2sd.zip) and [SEEPROM2SD](https://github.com/dimok789/seeprom2sd/releases/download/v1.0/seeprom2sd.zip) (source code for OTP2SD [here](https://github.com/dimok789/otp2sd_dumper) and SEEPROM2SD [here](https://github.com/dimok789/seeprom2sd))
-1. Create a folder called wiiu on the root of your SD Card inside of the wiiu folder create a folder called apps inside the wiiu folder.
+1. Create a folder called wiiu on the root of your SD Card, Inside of the wiiu folder create another folder called apps inside the wiiu folder.
 1. Inside the folder called apps that you just created, Create one folder called OTP2SD and another called SEEPROM2SD.
 1. Unzip OTP2SD and SEEPROM2SD, Then copy/move over the .elf from OTP2SD to the folder in apps called OTP2SD and do the same for SEEPROM2SD but copy/move it to the SEEPROM2SD folder.
 1. Then unmount your SD Card and put it in your Wii U.
