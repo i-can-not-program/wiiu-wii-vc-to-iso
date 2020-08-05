@@ -1,7 +1,9 @@
 
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
 This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
-1. For this you will need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
+
+1. You will need a Wii U console with a way of launching homebrew.
+1. For this you will also need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
 1. Download both [OTP2SD](https://github.com/dimok789/otp2sd_dumper/releases/download/v1.0/otp2sd.zip) and [SEEPROM2SD](https://github.com/dimok789/seeprom2sd/releases/download/v1.0/seeprom2sd.zip) (source code for OTP2SD [here](https://github.com/dimok789/otp2sd_dumper) and SEEPROM2SD [here](https://github.com/dimok789/seeprom2sd))
 1. Create a folder called wiiu on the root of your SD Card, Inside of the wiiu folder create another folder called apps inside the wiiu folder.
 1. Inside the folder called apps that you just created, Create one folder called OTP2SD and another called SEEPROM2SD.
@@ -20,13 +22,13 @@ This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
 ```
 sudo apt install git g++ make pkg-config libfuse-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libcrypto++-dev
 ```
-17. Then run `cd wfslib`.
+18. Then run `cd wfslib`.
 1. Run  `make`  and then `cd wfs-fuse`
 1. And also run `mkdir /tmp/wiivc/`
 1. Copy over otp.bin and seeprom.bin to wfs-fuse.
 1. Open Disks and determine your storage device's device file eg. */dev/sdb*
 1. Then run the following command whilst replacing "PUT_YOUR_DEVICE_HERE" with the name you just determined. 
   * `sudo ./wfs-fuse/wfs-fuse /dev/PUT_YOUR_DEVICE_HERE /tmp/wiivc --otp ./wfs-fuse/otp.bin --seeprom ./wfs-fuse/seeprom.bin`
-23. Also run `cd /tmp/wiivc`
+24. Also run `cd /tmp/wiivc`
 1. Run `cp -r usr/ ~/` to copy over your game.
 1. This is currently incomplete, but if you want to continue you can use [nfs2iso2nfs](https://github.com/sabykos/nfs2iso2nfs) (written in C#).
