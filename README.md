@@ -30,5 +30,6 @@ sudo apt install git g++ make pkg-config libfuse-dev libboost-dev libboost-syste
 1. Then run the following command whilst replacing "PUT_YOUR_DEVICE_HERE" with the name you just determined. 
   * `sudo ./wfs-fuse/wfs-fuse /dev/PUT_YOUR_DEVICE_HERE /tmp/wiivc --otp ./wfs-fuse/otp.bin --seeprom ./wfs-fuse/seeprom.bin`
 24. Also run `cd /tmp/wiivc`
-1. Run `cp -r usr/ ~/` to copy over your game.
+1. Run `cp -r usr/ ~/` to copy over your game. 
+1. The .nfs files will be stored in a "content" folder in the "user" directory.
 1. This is currently incomplete, but if you want to continue you can use [nfs2iso2nfs](https://github.com/sabykos/nfs2iso2nfs) (written in C#).
