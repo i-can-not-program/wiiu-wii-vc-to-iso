@@ -1,6 +1,6 @@
 
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
-1. Plug a storage device into your Wii U's usb slot and format it if you haven't already. 
+1. Plug a storage device into your Wii U's USBslot and format it if you haven't already. 
 1. Then go to System Settings.
 1. Go to Data Management and copy the Wii Game of choice to your storage device.
 1. Go to the Homebrew Launcher and get OTP2SD and SEEPROM2SD in your preferred way.
