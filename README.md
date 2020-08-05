@@ -1,5 +1,6 @@
 
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
+This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
 1. For this you will need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
 1. Download both [OTP2SD](https://github.com/dimok789/otp2sd_dumper/releases/download/v1.0/otp2sd.zip) and [SEEPROM2SD](https://github.com/dimok789/seeprom2sd/releases/download/v1.0/seeprom2sd.zip) (source code for OTP2SD [here](https://github.com/dimok789/otp2sd_dumper) and SEEPROM2SD [here](https://github.com/dimok789/seeprom2sd))
 1. Create a folder called wiiu on the root of your SD Card, Inside of the wiiu folder create another folder called apps inside the wiiu folder.
@@ -28,4 +29,4 @@ sudo apt install git g++ make pkg-config libfuse-dev libboost-dev libboost-syste
   * `sudo ./wfs-fuse/wfs-fuse /dev/PUT_YOUR_DEVICE_HERE /tmp/wiivc --otp ./wfs-fuse/otp.bin --seeprom ./wfs-fuse/seeprom.bin`
 18. Also run `cd /tmp/wiivc`
 1. Run `cp -r usr/ ~/` to copy over your game.
-1. To be continued...
+1. This is currently incomplete, but if you want to continue you can use [nfs2iso2nfs](https://github.com/sabykos/nfs2iso2nfs) (written in C#).
