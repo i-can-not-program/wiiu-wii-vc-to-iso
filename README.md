@@ -1,11 +1,15 @@
 
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
+1. For this you will need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
+1. Download both [OTP2SD](https://github.com/dimok789/otp2sd_dumper/releases/download/v1.0/otp2sd.zip) and [SEEPROM2SD](https://github.com/dimok789/seeprom2sd/releases/download/v1.0/seeprom2sd.zip) (source code for OTP2SD [here](https://github.com/dimok789/otp2sd_dumper) and SEEPROM2SD [here](https://github.com/dimok789/seeprom2sd))
+1. Create a folder called wiiu on the root of your SD Card inside of the wiiu folder create a folder called apps inside the wiiu folder.
+1. Inside the folder called apps that you just created, Create one folder called OTP2SD and another called SEEPROM2SD.
+1. Unzip OTP2SD and SEEPROM2SD, Then copy/move over the .elf from OTP2SD to the folder in apps called OTP2SD and do the same for SEEPROM2SD but copy/move it to the SEEPROM2SD folder.
+1. Then unmount your SD Card and put it in your Wii U.
 1. Plug a storage device into your Wii U's USB slot and format it if you haven't already. 
 1. Then go to System Settings.
 1. Go to Data Management and copy the Wii Game of choice to your storage device.
-1. For the next part you will need an SD Card, other SDs work as well eg. *SDHC*
-1. Go to the Homebrew Launcher and get OTP2SD and SEEPROM2SD in your preferred way.
-1. Run OTP2SD and SEEPROM2SD.
+1. Once it has finished run OTP2SD and SEEPROM2SD.
 1. Turn off your Wii U then take out the SD card and put it in your computer.
 1. Copy otp.bin and seeprom.bin to your computer
 1. Take out the storage device that you put in earlier.
