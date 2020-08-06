@@ -17,7 +17,7 @@ This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
 1. Copy otp.bin and seeprom.bin to your computer
 1. Take out the storage device that you put in earlier.
 1. Put it in your computer
-1. Open a terminal and Run `git clone https://github.com/koolkdev/wfslib.git` then compile it (see below)
+1. Open a terminal and run `git clone https://github.com/koolkdev/wfslib.git` then compile it (see below)
 1. To install the dependencies run the following command.
 ```
 sudo apt install git g++ make pkg-config libfuse-dev libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libcrypto++-dev
