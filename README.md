@@ -1,6 +1,7 @@
 
 # How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
 This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
+This is currently more of a "How to get .nfs files from Wii U Wii VC"
 
 1. You will need a Wii U console with a way of launching homebrew.
 1. For this you will also need an SD Card, other SDs work as well eg. *SDHC* (I will be referring to it as an SD Card)
