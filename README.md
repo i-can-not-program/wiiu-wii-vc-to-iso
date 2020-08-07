@@ -1,5 +1,5 @@
 
-# How to turn Wii Games from Wii U eShop into ISOs on Linux and Mac
+# How to turn Wii Games from Wii U eShop into ISOs on Linux
 This may not work on all Wii games, I have only tested "Super Mario Galaxy 2"
 This is currently more of a "How to get .nfs files from Wii U Wii VC"
 
