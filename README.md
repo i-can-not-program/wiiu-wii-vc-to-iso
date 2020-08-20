@@ -13,7 +13,7 @@ This is currently more of a "How to get .nfs files from Wii U Wii VC"
 1. Plug a storage device into your Wii U's USB slot and format it if you haven't already. 
 1. Then go to System Settings.
 1. Go to Data Management and copy the Wii Game of choice to your storage device.
-1. Once it has finished run OTP2SD and SEEPROM2SD.
+1. Once it has finished run OTP2SD and SEEPROM2SD. (you may need to run [Mocha CFW](https://github.com/dimok789/mocha/releases/download/v0.2/mocha.v0.2.zip))
 1. Turn off your Wii U then take out the SD card and put it in your computer.
 1. Copy otp.bin and seeprom.bin to your computer
 1. Take out the storage device that you put in earlier.
